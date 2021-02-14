@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  max-width: 1903px;
 }
 body {
   background-color: #4b9995;
 }
 nav {
-  width: 1920px;
+  width: 1903px;
   height: 110px;
   background-color: #4b9995;
 }
