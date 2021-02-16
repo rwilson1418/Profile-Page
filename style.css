@@ -34,7 +34,7 @@ ul li a:hover {
 .nookinc {
   padding: 30px;
 }
-.trans {
+.main {
   margin-top: -10px;
 }
 .meet {
@@ -69,4 +69,10 @@ ul li a:hover {
 }
 .blue {
   margin-top: -10px;
+  position: relative;
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
