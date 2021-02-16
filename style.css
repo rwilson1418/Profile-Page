@@ -31,19 +31,32 @@ ul li a {
 ul li a:hover {
   color: #254c4a;
 }
-
+.nookinc {
+  padding: 30px;
+}
+.trans {
+  margin-top: -10px;
+}
 .meet {
   position: relative;
   margin-top: -10px;
+  text-align: center;
 }
 .meetback {
   position: relative;
 }
 .nookbox {
   position: absolute;
-  top:200px;
+  top:150px;
   left:200px;
 }
-.nookinc {
-  padding: 30px;
+.tomnook{
+  position: absolute;
+  top:44%;
+  left:44%;
+  color: white;
+ font-size: 70px;
+}
+.purpleback {
+  margin-top: -10px;
 }
