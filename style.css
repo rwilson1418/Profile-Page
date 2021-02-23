@@ -69,6 +69,7 @@ ul li a:hover {
   margin-top: -5px;
   flex-flow: row wrap;
   background-image: url(images/purpleback.png);
+  background-repeat: no-repeat;
 }
 .purpleheader{
   margin-top: 100px;
@@ -84,7 +85,23 @@ ul li a:hover {
    display: inline-block;
    text-align: center;
  }
-
+.reddparent{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.reddback {
+  position: relative;
+}
+.reddwords {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  font-size: 100px;
+  color: white
+}
 /*Orange Section*/
 .orange {
   margin-top: -5px;
