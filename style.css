@@ -69,19 +69,6 @@ ul li a:hover {
   position: relative;
 
 }
-.purplegrid{
-  position: absolute;
-  top:25%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "header header header"
-  "town laptop tree";
-  grid-column-gap: 50px;
-  grid-row-gap: 150px;
-}
 .purpleheader{
   grid-area: header;
   text-align: center;
