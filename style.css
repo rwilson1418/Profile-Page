@@ -65,12 +65,17 @@ ul li a:hover {
 
 /*Purple Section*/
 .purple {
+  display: flex;
   margin-top: -5px;
-  position: relative;
-
+}
+.purpleback{
+  width: 100%;
 }
 .purpleheader{
-  grid-area: header;
+  width: 100%;
+  margin-left: -100%;
+  margin-top: 150px;
+  height: 300px;
   text-align: center;
   font-size: 50px;
   color: white;
