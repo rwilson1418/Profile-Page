@@ -67,12 +67,12 @@ ul li a:hover {
 .purple {
   display: flex;
   margin-top: -5px;
-  flex-flow: row wrap; 
+  flex-flow: row wrap;
+  background-image: url(images/purpleback.png);
 }
-.purpleback{
-  width: 100%;
-  }
 .purpleheader{
+  margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
   font-size: 50px;
   color: white;
@@ -81,6 +81,8 @@ ul li a:hover {
 }
  .three{
    width: 100%;
+   display: inline-block;
+   text-align: center;
  }
 
 /*Orange Section*/
