@@ -34,12 +34,16 @@ ul li a:hover {
 .nookinc {
   padding: 30px;
 }
+
+/*Main Section*/
 .main {
-  margin-top: -10px;
+  margin-top: -5px;
 }
+
+/*Meet Section*/
 .meet {
   position: relative;
-  margin-top: -10px;
+  margin-top: -5px;
   text-align: center;
 }
 .meetback {
@@ -58,17 +62,49 @@ ul li a:hover {
   color: white;
  font-size: 70px;
 }
+
+/*Purple Section*/
 .purple {
-  margin-top: -10px;
+  margin-top: -5px;
+  position: relative;
+
 }
+.purplegrid{
+  position: absolute;
+  top:25%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "header header header"
+  "town laptop tree";
+  grid-column-gap: 50px;
+  grid-row-gap: 150px;
+}
+.purpleheader{
+  grid-area: header;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 50px;
+  background-image: url(images/firstbox.png);
+}
+
+
+/*Orange Section*/
 .orange {
-  margin-top: -10px;
+  margin-top: -5px;
 }
+
+/*Green Section*/
 .green {
-  margin-top: -10px;
+  margin-top: -5px;
 }
+
+/*Blue Section*/
 .blue {
-  margin-top: -10px;
+  margin-top: -5px;
   position: relative;
 }
 .footer{
