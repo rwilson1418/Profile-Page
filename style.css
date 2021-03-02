@@ -10,6 +10,7 @@ html {
   padding: 0;
   text-decoration: none;
   max-width: 1519px;
+  font-family: Rokkitt;
 }
 
 body {
@@ -31,10 +32,10 @@ ul li {
 }
 ul li a {
   display: block;
-  font-size: 30px;
-  font-family: arial;
+  font-size: 50px;
   color: white;
-  padding: 0 50px;
+  margin-top: 10px;
+  margin-right: 50px;
 }
 ul li a:hover {
   color: #254c4a;
@@ -57,13 +58,37 @@ ul li a:hover {
   margin-top: 50px;
   margin-bottom: 80px;
   width: 100%;
+  position: relative;
+}
+.salechild {
+  position: absolute;
+  right: 0px;
+  font-size: 50px;
+  color: #ff5543;
+  top: 15px;
+  right: 30px;
+}
+.salechild a{
+  color: #ff5543;
+}
+.salechild a:hover{
+  color: #ffaa3c;
 }
 .sale {
-float: right;
+  float: right;
 }
-.aboutus {
+.aboutparent {
   margin-left: 0px;
   margin-bottom: 400px;
+  width: 100%;
+  position: relative;
+}
+.aboutchild{
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  font-size: 100px;
+  color: white;
 }
 /*Transition Section*/
 .transition {
@@ -84,13 +109,21 @@ float: right;
   top:150px;
   left:150px;
 }
-.tomnook{
+.tomnook1{
   position: absolute;
-  top:50%;
-  left:50%;
+  top: 40%;
+  left: 53%;
   transform: translate(-50%, -50%);
   color: white;
  font-size: 70px;
+}
+.tomnook{
+  position: absolute;
+  top:55%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
 }
 
 /*Purple Section*/
