@@ -45,8 +45,8 @@ ul li a:hover {
 
 /*Main Section*/
 .main {
-  display: flex;
   margin-top: -5px;
+  display: flex;
   flex-flow: row wrap;
   background-image: url(images/mainwhite.png);
   background-size: cover;
@@ -54,14 +54,16 @@ ul li a:hover {
   width: 100%;
 }
 .saleparent{
-  margin-top: 100px;
-  margin-bottom: 500px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  width: 100%;
 }
 .sale {
 float: right;
 }
 .aboutus {
   margin-left: 0px;
+  margin-bottom: 400px;
 }
 /*Transition Section*/
 .transition {
@@ -126,9 +128,11 @@ float: right;
 }
 .reddwords {
   position: absolute;
-  top: 20px;
+  margin-left: 500px;
+  margin-right: 150px;
+  top: 125px;
   right: 50px;
-  font-size: 100px;
+  font-size: 50px;
   color: white
 }
 /*Pack Section*/
@@ -146,8 +150,8 @@ float: right;
   background-position: center;
 }
 .orangewords {
-  margin-top: 250px;
-  margin-bottom: 250px;
+  padding: 100px;
+  margin: 50px;
   width: 100%;
   text-align: center;
   font-size: 50px;
@@ -167,13 +171,33 @@ float: right;
   background-size: cover;
   background-position: center;
 }
-.greenwords {
-    margin-top: 250px;
-    margin-bottom: 500px;
-    width: 100%;
-    text-align: center;
+.greenleftparent {
+  width: 50%;
+  float: left;
+}
+.greenwordsleft {
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 100px;
+    text-align: left;
     font-size: 50px;
     color: white;
+  }
+  .greenwordsright {
+      margin-right: 80px;
+      margin-left: 50px;
+      margin-top: 100px;
+      margin-bottom: 20px;
+      text-align: left;
+      font-size: 50px;
+      color: white;
+  }
+  .standparent {
+    width: 50%;
+    float: right;
+  }
+  .stand{
+    margin-left: 100px;
   }
 /*Island Section*/
  .island {
@@ -185,16 +209,15 @@ float: right;
   display: flex;
   margin-top: -5px;
   flex-flow: row wrap;
+  justify-content: center;
   background-image: url(images/blueback.png);
   background-size: cover;
   background-position: center;
   position: relative;
-  align-items: center;
 }
 .work {
-  margin-top: 250px;
+  margin-top: 150px;
   margin-bottom: 500px;
-
 }
 .footer{
   position: absolute;
